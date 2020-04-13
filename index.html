@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="icon" href="./data/icon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="./style.css">
+
+	<script type="text/javascript" src="./script.js"></script>
 	
 </head>
 <body>
@@ -17,6 +19,15 @@
 		<a class="btn" href="https://www.github.com/FaraazKhhan" target="_blank">Github Profile</a>
 		<a class="btn" href="https://www.instagram.com/justfaraaz" target="_blank">Instagram Profile</a>
 		<a class="btn" href="https://www.twitter.com/FaraazKhhan" target="_blank">Twitter Profile</a>
+		<br/>
+		
+		<input type="color" value="#000000" id="colorP1" onchange="changeValueF1()">
+		<span id="colorValue1">color-1</span>&emsp;
+		
+		<input type="color" value="" id="colorP2" onchange="changeValueF2()">
+		<span id="colorValue2">color-2</span>&emsp;
+		
+		<input type="button" value="Change Background Color" id="changeColor" onclick="changeColor()">
 	</div>
 
 	<div class="arrow bounce">
