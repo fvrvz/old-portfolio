@@ -2,13 +2,32 @@
 
 html{
 	background-image: linear-gradient(to bottom right,  #1a2a6c, #b21f1f, #fdbb2d);
- 
 	background-repeat: no-repeat;
 	height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#bgChange{
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,0.9);
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 15px;
+	text-align: center;
+	background:none;
+    border:none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 7%;
+    left: 48%;
+    margin-left: -10px;
+}
+
+#bgChange:hover{
+	text-shadow: 2px 2px 2px  black;
 }
 
 .arrow {
@@ -89,6 +108,12 @@ html{
   #arrow-img{
   	height: 30px;
   	width: 30px;
+  }
+  #bgChange{
+  	font-size: 11px;
+  	bottom: 3%;
+	left: 44%;
+	margin-left: -10px;
   }
 }
 
