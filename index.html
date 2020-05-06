@@ -6,45 +6,53 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="./img/icon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
-
-	<script type="text/javascript" src="./js/main.js"></script>
-
-
 </head>
 <body>
-	<div class="bgWindow" id="mainPage">
-		<div id="gradient-text-container">
-			<p id="gradient-text">Gradients Here</p>
-		</div>
-		<div class="header">
-			<span class="hello">Hi! I am Faraaz</span><br/>
-			<span id="name">Welcome to CodeFaraaz</span><br/>
-			<br/>
-			<span id="tagline">find me on these platforms</span><br/>
+	<div class="mainWindow">
+		<div class="bgWindow" id="mainPage">
+			<div id="gradient-text-container">
+				<p id="gradient-text">Gradients Here</p>
+			</div>
+			<div class="header">
+				<span class="name" id="name">Hi! I am Faraaz</span><br/>
+				<span id="hello">welcome to my place</span><br/>
+				<br/>
+				<span id="tagline">find me on these platforms</span><br/>
 
 
-			<a class="btn" href="https://www.github.com/FaraazKhhan" target="_blank">Github Profile</a>
-			<a class="btn" href="https://www.instagram.com/justfaraaz" target="_blank">Instagram Profile</a>
-			<a class="btn" href="https://www.twitter.com/FaraazKhhan" target="_blank">Twitter Profile</a>
-			<br/>
+				<a class="btn" href="https://www.github.com/FaraazKhhan" target="_blank">Github Profile</a>
+				<a class="btn" href="https://www.instagram.com/justfaraaz" target="_blank">Instagram Profile</a>
+				<a class="btn" href="https://www.twitter.com/FaraazKhhan" target="_blank">Twitter Profile</a>
+				<br/>
 
 
-		</div>
+			</div>
 
-		<div class="arrow bounce">
-			<img id="arrow-img" style="opacity: 0.6;" width="50px" height="50px" src="./img/downArrow.png" onclick="scroll_bottom()">
-
-			<img id="arrow-img-up" style="opacity: 0.6;" width="50px" height="50px" src="./img/upArrow.png" onclick="scroll_top()">
+			<button id="bgChange" onclick="colorChange()">Click!<br/>here</button>
 		</div>
 
-		<button id="bgChange" onclick="colorChange()">Click!<br/>here</button>
+		<!-- <div id="sidebar-btn-open">
+			<span><</span>
+		</div>
+
+		<div class="sidebar" id="slider">
+			<div id="sidebar-btn-close">
+				<span>></span>
+			</div>
+			<span>nothing here</span>
+		</div> -->
+
 	</div>
 
-	<div class="bgWindow" id="nextPage">
+
+
+	<!-- <div class="bgWindow" id="nextPage">
 		<p class="hello">
 			Website is under construction.....<br/>
 			<small>don't worry, it will be live soon!</small>
 		</p>
-	</div>
+	</div> -->
+
+	<script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>

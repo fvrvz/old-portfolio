@@ -1,15 +1,11 @@
 function colorChange(){
 	let random1 = Math.floor(Math.random()*colors.length);
 	let color1 = colors[random1];
-
 	let random2 = Math.floor(Math.random()*colors.length);
 	let color2 = colors[random2];
-
 	let gradient = "linear-gradient(to bottom right" + "," + color1 + "," + color2 + ")";
 	document.body.style.backgroundImage = gradient;
-	// document.getElementById("change").innerHTML = gradient;
 	document.getElementById('gradient-text').innerHTML = gradient;
-
 	document.getElementById('gradient-text-container').style.display = "block";
 }
 
@@ -17,48 +13,17 @@ function colorChange(){
 // setInterval(function () {document.getElementById("bgChange").click();}, 1000);
 
 
-
-window.onload = function() {document.querySelector("#arrow-img").style.display = "block"};
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-
-	let d_arrow = document.querySelector("#arrow-img");
-let u_arrow = document.querySelector('#arrow-img-up');
-
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    u_arrow.style.display = "block";
-    d_arrow.style.display = "none";
-  } else {
-  	d_arrow.style.display = "block";
-    u_arrow.style.display = "none";
-  }
-}
-
-function scroll_top() {
-	document.documentElement.scrollTop = 0;
-
-	let d_arrow = document.querySelector("#arrow-img");
-let u_arrow = document.querySelector('#arrow-img-up');
-
-    u_arrow.style.display = 'none';
-    d_arrow.style.display = 'block';
-	// arrowDown.setAttribute('style','transform:rotate(180deg)');
-}
-
-function scroll_bottom() {
-	let secPage = document.querySelector("#nextPage");
-
-	secPage.scrollIntoView();
-
-let d_arrow = document.querySelector("#arrow-img");
-let u_arrow = document.querySelector('#arrow-img-up');
-	// arrowDown.style.display = 'block';
-	// let arrow = document.querySelector("#arrow-img");
-    d_arrow.style.display = 'none';
-    u_arrow.style.display = 'block';
-  	// arrowUp.setAttribute('style','transform:rotate(180deg)');
-}
+// let sidebar = document.querySelector('.sidebar');
+//
+// document.querySelector('#sidebar-btn-open').addEventListener('click', function(){
+// 	document.getElementById('slider').style.width = '300px';
+//
+// });
+//
+// document.querySelector('#sidebar-btn-close').addEventListener('click', function(){
+// 	document.getElementById('slider').style.width = '0';
+//
+// });
 
 
 const colors = [
