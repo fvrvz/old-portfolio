@@ -1,4 +1,7 @@
 # responsive-web-design
+[![HTML5](https://img.shields.io/badge/HTML5-Markup-green)](https://en.wikipedia.org/wiki/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS--3-styling-orange)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+[![JavaScript](https://img.shields.io/badge/JavaScript-client--side--scripting-blue)](https://en.wikipedia.org/wiki/JavaScript)
 Exploring some web-designing environment on my own.
 * Copy this link and paste to URL bar to use live demo.
 ```
