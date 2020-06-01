@@ -1,29 +1,14 @@
 function colorChange(){
+	let coloredDiv = document.querySelector('.rotateDiv');
 	let random1 = Math.floor(Math.random()*colors.length);
 	let color1 = colors[random1];
 	let random2 = Math.floor(Math.random()*colors.length);
 	let color2 = colors[random2];
 	let gradient = "linear-gradient(to bottom right" + "," + color1 + "," + color2 + ")";
-	document.body.style.backgroundImage = gradient;
+	coloredDiv.style.backgroundImage = gradient;
 	document.getElementById('gradient-text').innerHTML = gradient;
 	document.getElementById('gradient-text-container').style.display = "block";
 }
-
-
-// setInterval(function () {document.getElementById("bgChange").click();}, 1000);
-
-
-// let sidebar = document.querySelector('.sidebar');
-//
-// document.querySelector('#sidebar-btn-open').addEventListener('click', function(){
-// 	document.getElementById('slider').style.width = '300px';
-//
-// });
-//
-// document.querySelector('#sidebar-btn-close').addEventListener('click', function(){
-// 	document.getElementById('slider').style.width = '0';
-//
-// });
 
 
 const colors = [
