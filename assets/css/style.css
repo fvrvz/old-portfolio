@@ -31,6 +31,11 @@ body::before {
     background-attachment: fixed;
   }
 }
+@media (max-width: 992px){
+  body::before{
+    background: url("../img/wallpaper.jpg") no-repeat;
+  }
+}
 
 a {
   color: #9701ff;
