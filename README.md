@@ -7,7 +7,7 @@
 
 * Copy this link and paste to URL bar to use live demo.
 ```
-https://faraazkhhan.github.io/page
+https://faraazkhhan.github.io/portfolio
 ```
 
 ## Screenshot
