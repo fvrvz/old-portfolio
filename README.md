@@ -7,11 +7,11 @@
 
 * Copy this link and paste to URL bar to use live demo.
 ```
-https://faraazkhhan.github.io/page
+https://faraazitself.github.io/portfolio
 ```
 
 ## Screenshot
-![Personal Information Website by FaraazKhhan](https://raw.githubusercontent.com/FaraazKhhan/WebDesign/master/desktop_ss.png)(https://raw.githubusercontent.com/FaraazKhhan/WebDesign/master/phone_ss.png)
+![Personal Information Website by FaraazKhhan](https://raw.githubusercontent.com/faraazitself/portfolio/master/screenshots/new_ss.png)
 
 ## Language used:
 * HTML-5 - Markup language
@@ -29,4 +29,4 @@ https://faraazkhhan.github.io/page
 * Google Fonts
 
 ### Designer & Developer
-* [Faraaz Khhan](https://www.instagram.com/superfaraaz) 
+* [Faraaz Khhan](https://www.instagram.com/faraazitself) 
