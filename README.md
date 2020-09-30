@@ -7,11 +7,11 @@
 
 * Copy this link and paste to URL bar to use live demo.
 ```
-https://faraazkhhan.github.io/portfolio
+https://faraazkhhan.github.io/page
 ```
 
 ## Screenshot
-![Personal Information Website by FaraazKhhan](https://raw.githubusercontent.com/FaraazKhhan/WebDesign/master/screenshot.png)
+![Personal Information Website by FaraazKhhan](https://raw.githubusercontent.com/FaraazKhhan/WebDesign/master/desktop_ss.png)(https://raw.githubusercontent.com/FaraazKhhan/WebDesign/master/phone_ss.png)
 
 ## Language used:
 * HTML-5 - Markup language
